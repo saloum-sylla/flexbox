@@ -1,0 +1,32 @@
+<!-- Pour créer un conteneur Flex, vous devez d'abord définir la propriété "display" sur "flex" ou "inline-flex"  -->
+
+<!-- Exercice 1: Créez une flexbox avec 3 éléments à l'intérieur. qui auront :
+  border: 1px solid black;
+  padding: 10px; -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container{
+      display: flex;
+    }
+    .sousContainer {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+  <body>
+    <h1>Exercice 1</h1>
+    <div class="container">
+      <div class="sousContainer">Element 1</div>
+      <div class="sousContainer">Element 2</div>
+      <div class="sousContainer">Element 3</div>
+    </div>
+  </body>
+</html>
